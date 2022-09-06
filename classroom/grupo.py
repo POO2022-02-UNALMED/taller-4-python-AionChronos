@@ -10,8 +10,7 @@ class Grupo:
         self.listadoAlumnos = estudiantes
     
     def __str__(self):
-        return "Grupo de estudiantes: "+str(self._grupo)
-
+        return "Grupo de estudiantes: "+str(self._grupo
     def listadoAsignaturas(self, **kwargs):
         for key in kwargs:
             self._asignaturas[key] = kwargs[key]
@@ -24,4 +23,4 @@ class Grupo:
           
     @ classmethod
     def asignarNombre(cls, nombre = "Grado 6"):
-        cls.grado = nombre
+        cls.grado = 
